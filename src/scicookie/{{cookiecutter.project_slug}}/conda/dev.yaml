@@ -8,7 +8,7 @@ dependencies:
   - poetry
 {%- elif cookiecutter.build_system == 'flit' %}
   - flit
-{%- else %}
+{%- elif cookiecutter.build_system == 'mesonpy' %}
   - meson-python
 {%- endif %}
   - nodejs  # used by semantic-release
