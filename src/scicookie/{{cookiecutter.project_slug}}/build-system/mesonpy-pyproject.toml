@@ -40,7 +40,6 @@ classifiers = [
 dynamic = ["version"]
 requires-python = ">=3.8"
 dependencies = [
-    "urllib3<=2",
 {# keep this line here #}
 {%- if cookiecutter.use_pytest == "yes" -%}
     "pytest>=7.3.2",
