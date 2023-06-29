@@ -99,10 +99,15 @@ docs-preview: docs-build
 build:
 {%- if cookiecutter.build_system == 'poetry' %}
 	poetry build
+<<<<<<< HEAD
 {%- elif cookiecutter.build_system == 'flit' %}
 	flit build
 {%- elif cookiecutter.build_system == 'mesonpy' %}
 	meson build
+=======
+{%- elif cookiecutter.build_system == 'poetry' %}
+	flit build
+>>>>>>> upstream/main
 {%- endif %}
 
 .PHONY:release-ci
