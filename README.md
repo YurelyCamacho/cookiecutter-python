@@ -50,7 +50,7 @@ requirements.
 - You can choose between different code of conduct, roadmap and governance
   documents based on recognized community documents.
 - CI options: github actions, circleci, azure pipelines and gitlab CI.
-- Release workflow with semantic release and github actions
+- Release workflow with semantic release
 - Flexible build system selection: Choose between popular build systems like
   [Poetry](https://python-poetry.org/), [Flit](https://flit.pypa.io),
   [meson-python](https://meson-python.readthedocs.io/en/latest/index.html),
@@ -78,11 +78,11 @@ requirements.
   the template gives you the option to use the
   [McCabe](https://github.com/PyCQA/mccabe) library, which is included via
   flake8.
-- Choose between Click and Argparse as Command Line Interface (CLI)
+- Choose between _Click_ and _Argparse_ as Command Line Interface (CLI)
 - Code coverage testing with _Coverage_.
-- Provides the option to add initial files that allow you to run and orchestrate
-  containers using [Docker](https://docs.docker.com/) or
-  [Podman](https://podman.io/) in your project.
+- Provides the option to add initial files that allow you to run and
+  orchestrate containers using [Docker](https://docs.docker.com/) (Podman is
+  supported through `docker-compose`).
 
 ## Quickstart
 
