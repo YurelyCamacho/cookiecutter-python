@@ -8,7 +8,6 @@
 - Software License: {{ cookiecutter.project_license }}
 {%- endif %}
 - Documentation: https://{{ cookiecutter.project_slug }}.github.io
-{%- endif %}
 
 ## Features
 
