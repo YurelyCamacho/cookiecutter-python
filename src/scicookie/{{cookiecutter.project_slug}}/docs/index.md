@@ -83,12 +83,13 @@
 - **Command-line interface (CLI)**: this project uses
   [_Click_](https://click.palletsprojects.com/en/8.1.x/) a Python package that
   allows you to create beautiful command line interfaces in a composable way
-with as little code as necessary.
+  with as little code as necessary.
 {%- elif cookiecutter.command_line_interface == "Argparse" %}
 - **Command-line interface (CLI)**: this project uses
-  [_Argparse_](https://docs.python.org/3/library/argparse.html): this is the
-  recommended command line parsing module in the Python standard library, and
-  provides an easy way to create command line interfaces with custom arguments and options.
+  [_Argparse_](https://docs.python.org/3/library/argparse.html), the
+  recommended command line parsing module in the Python standard library.
+  Provides an easy way to create command line interfaces with custom arguments
+  and options.
 {%+ endif %}
 {% if cookiecutter.documentation_engine == "mkdocs" %}
 - **Documentation engine**: [_mkdocs_](https://www.mkdocs.org/) is a fast,
@@ -222,7 +223,7 @@ This tool is included with [Flake8](https://flake8.pycqa.org/en/latest/).
   library for Python. It focuses on generating diverse input data and exploring
   different scenarios to thoroughly test code. Instead of relying on specific
   examples, Hypothesis allows you to define general properties that your code
-should satisfy.
+  should satisfy.
 {%+ endif -%}
 {%- if cookiecutter.use_shellcheck == "yes" %}
 - **Static analysis of shell scripts**: we use
@@ -250,14 +251,15 @@ should satisfy.
   different environments. This streamlines our development, testing, deployment,
   and collaboration workflows, making the entire process more efficient.
 {%- elif cookiecutter.use_containers == 'Podman' %}
-- **Integration with DevOps tools**: we use  _Podman_ in your Python project
-  helps us achieve a more secure, efficient, and flexible containerization
-  strategy, and give us more control over application's dependencies and
-  configurations. Podman allows us to manage containers without the need for a
-  daemon, providing a more secure and lightweight solution.
-  With Podman, we can easily create and run containers, as well as manage their
-  lifecycle and resources. This integration has improved our development and
-  deployment processes, making them more efficient and streamlined.
+- **Integration with DevOps tools**: we use  _Podman_ in our Python project
+  because it helps us achieve a more secure, efficient, and flexible
+  containerization strategy, and give us more control over application's
+  dependencies and configurations. Podman allows us to manage containers
+  without the need for a daemon, providing a more secure and lightweight
+  solution. With Podman, we can easily create and run containers, as well as
+  manage their lifecycle and resources. This integration has improved our
+  development and deployment processes, making them more efficient and
+  streamlined.
 {%+ endif %}
 {%- if cookiecutter.use_makim == "yes" %}
 - **Automation tools**: this project uses
