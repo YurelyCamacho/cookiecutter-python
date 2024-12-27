@@ -540,15 +540,15 @@ want to know more about it.
   enhancing code readability, saving time on manual formatting, and allowing for
   fine-tuned configurations to meet specific project needs.
 
-- [**Prettier**](https://prettier.io/docs/en/): is an opinionated code
-  formatter that removes all original styling and ensures that all outputted
-  code conforms to a consistent style(i.e. code formatting that won’t affect
-  the AST) across your entire codebase because it disregards the original
-  styling* by parsing it away and re-printing the parsed AST with its own rules
-  that take the maximum line length into account, wrapping code when necessary.
-  Prettier offers support for JavaScript, JSX, Angular, Vue, Flow, TypeScript,
-  CSS, Less, and SCSS, HTML, Ember/Handlebars, JSON, GraphQL, Markdown,
-  including GFM and MDX v1 and YAML.
+- [**Prettier**](https://prettier.io/docs/en/): is an opinionated code formatter
+  that removes all original styling and ensures that all outputted code conforms
+  to a consistent style(i.e. code formatting that won’t affect the AST) across
+  your entire codebase because it disregards the original styling\* by parsing
+  it away and re-printing the parsed AST with its own rules that take the
+  maximum line length into account, wrapping code when necessary. Prettier
+  offers support for JavaScript, JSX, Angular, Vue, Flow, TypeScript, CSS, Less,
+  and SCSS, HTML, Ember/Handlebars, JSON, GraphQL, Markdown, including GFM and
+  MDX v1 and YAML.
 
 Using code formatters such as _Black_, _Ruff_ and _Prettier_ in your project
 helps ensure consistent and readable code, making it easier to maintain and
@@ -768,12 +768,11 @@ supported hooks using this link https://pre-commit.com/hooks.html.
 
 ## Integration with DevOps tools
 
-Integrating your Python project with DevOps tools can bring a number of
-benefits to the development and deployment process. DevOps tools are designed
-to automate and streamline the development pipeline, from code development to
-deployment and maintenance, and can help you improve the speed, quality and
-reliability of the development process. In SciCookie you have the option of
-using _Docker_.
+Integrating your Python project with DevOps tools can bring a number of benefits
+to the development and deployment process. DevOps tools are designed to automate
+and streamline the development pipeline, from code development to deployment and
+maintenance, and can help you improve the speed, quality and reliability of the
+development process. In SciCookie you have the option of using _Docker_.
 
 - [**Docker**](https://www.docker.com/): This is a containerization platform
   that allows developers to package their applications and dependencies into a

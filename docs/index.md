@@ -83,9 +83,9 @@ Python package.
   flake8.
 - Choose between _Click_ and _Argparse_ as Command Line Interface (CLI)
 - Code coverage testing with _Coverage_.
-- Provides the option to add initial files that allow you to run and
-  orchestrate containers using [Docker](https://docs.docker.com/) (Podman is
-  supported through `docker-compose`).
+- Provides the option to add initial files that allow you to run and orchestrate
+  containers using [Docker](https://docs.docker.com/) (Podman is supported
+  through `docker-compose`).
 
 ## Quickstart
 

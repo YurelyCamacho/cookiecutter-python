@@ -22,11 +22,11 @@ needs.
 
 - **Project Structure:** Choose between "src" (code in a subdirectory) and
   "flat" (all files in the top-level directory) layouts.
-- **Packaging & Dependencies:** Supports Poetry, Flit, meson-python,
-  setuptools, PDM, Hatch, Maturin, scikit-build-core, Pixi, or setuptools +
-  pybind11 for flexible build systems.
-- **Testing & Linting:** Integrates with pytest and hypothesis (testing),
-  black, ruff and prettier (auto-formatting), bandit (security), pydocstyle
+- **Packaging & Dependencies:** Supports Poetry, Flit, meson-python, setuptools,
+  PDM, Hatch, Maturin, scikit-build-core, Pixi, or setuptools + pybind11 for
+  flexible build systems.
+- **Testing & Linting:** Integrates with pytest and hypothesis (testing), black,
+  ruff and prettier (auto-formatting), bandit (security), pydocstyle
   (documentation style), vulture (unused code detection), flake8 (code style),
   ruff (linter), ShellCheck (static analysis of shell scripts), Coverage (code
   coverage testing), and McCabe (cyclomatic complexity analysis) for a robust
@@ -38,7 +38,8 @@ needs.
 - **Documentation:** Offers options for mkdocs, sphinx-rst, sphinx-myst,
   jupyter-book or quarto documentation generation.
 - **Containerization:** Provides the ability to add initial files for running
-  and managing containers using Docker(Podman is supported via `docker-compose`).
+  and managing containers using Docker(Podman is supported via
+  `docker-compose`).
 
 ### Benefits
 
