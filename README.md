@@ -38,12 +38,18 @@ requirements.
   2.0, and GPL 3
 - Documentation engines: mkdocs, sphinx-rst, sphinx-myst, jupyter-boook, quarto
 - Test library: pytest, hypothesis
-- Auto format code tool: black
+- Auto format code tools: _black_, _ruff_ and _prettier_.
+- Code style with _Flake8_.
+- Allows _Ruff_ to be used as a linter.
 - Initial integration with git
 - Support to conda (as base environment) and poetry as packaging and dependency
   management
 - Support to pre-commit
-- CI with github actions
+- Static analysis of shell scripts using _ShellCheck_.
+- Support for _Makim_ and _Make_ as automation tools.
+- You can choose between different code of conduct, roadmap and governance
+  documents based on recognized community documents.
+- CI options: github actions, circleci, azure pipelines and gitlab CI.
 - Release workflow with semantic release and github actions
 - Flexible build system selection: Choose between popular build systems like
   [Poetry](https://python-poetry.org/), [Flit](https://flit.pypa.io),
@@ -72,6 +78,8 @@ requirements.
   the template gives you the option to use the
   [McCabe](https://github.com/PyCQA/mccabe) library, which is included via
   flake8.
+- Choose between Click and Argparse as Command Line Interface (CLI)
+- Code coverage testing with _Coverage_.
 - Provides the option to add initial files that allow you to run and orchestrate
   containers using [Docker](https://docs.docker.com/) or
   [Podman](https://podman.io/) in your project.
