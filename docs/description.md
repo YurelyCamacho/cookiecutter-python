@@ -18,26 +18,29 @@ needs.
 - [PyPI](https://pypi.org/project/scicookie/)
 - [License (BSD)](https://github.com/osl-incubator/scicookie/blob/main/LICENSE)
 
-### Key Features:
+### Key Features
 
 - **Project Structure:** Choose between "src" (code in a subdirectory) and
   "flat" (all files in the top-level directory) layouts.
-- **Packaging & Dependencies:** Supports Poetry, Flit, meson-python, setuptools,
-  PDM, Hatch, Maturin, scikit-build-core, Pixi, or setuptools + pybind11 for
-  flexible build systems.
-- **Testing & Linting:** Integrates with pytest, hypothesis, black
-  (auto-formatting), bandit (security), pydocstyle (documentation style),
-  vulture (unused code detection), and McCabe (cyclomatic complexity analysis)
-  for a robust development environment.
+- **Packaging & Dependencies:** Supports Poetry, Flit, meson-python,
+  setuptools, PDM, Hatch, Maturin, scikit-build-core, Pixi, or setuptools +
+  pybind11 for flexible build systems.
+- **Testing & Linting:** Integrates with pytest and hypothesis (testing),
+  black, ruff and prettier (auto-formatting), bandit (security), pydocstyle
+  (documentation style), vulture (unused code detection), flake8 (code style),
+  ruff (linter), ShellCheck (static analysis of shell scripts), Coverage (code
+  coverage testing), and McCabe (cyclomatic complexity analysis) for a robust
+  development environment.
 - **Version Control & Automation:** Includes initial git integration, conda
   (base environment) support, pre-commit hooks, continuous integration with
-  GitHub Actions, and release workflows with semantic-release.
+  GitHub Actions, CircleCI, Azure Pipelines and GitLab CI, automation with Make
+  and Makim, and release workflows with semantic-release.
 - **Documentation:** Offers options for mkdocs, sphinx-rst, sphinx-myst,
   jupyter-book or quarto documentation generation.
 - **Containerization:** Provides the ability to add initial files for running
-  and managing containers using Docker or Podman.
+  and managing containers using Docker(Podman is supported via `docker-compose`).
 
-### Benefits:
+### Benefits
 
 - **Reduces boilerplate code:** SciCookie eliminates the need to write
   repetitive project setup code, allowing developers to focus on core
@@ -51,7 +54,7 @@ needs.
 - **Automates workflows:** Streamlines processes like documentation generation,
   version control, and continuous integration.
 
-### Getting Started:
+### Getting Started
 
 **Prerequisites**
 
@@ -88,7 +91,7 @@ _(The `--profile osl` flag allows you to generate the project with the OSL
 recommended configuration. If omitted, the default SciCookie profile will be
 used.)_
 
-### Community:
+### Community
 
 - Join the community, contribute, or seek assistance.
 - [Discord](https://discord.gg/huPRh422)
@@ -97,7 +100,7 @@ used.)_
 - [Contribution Guide](https://github.com/osl-incubator/scicookie/blob/main/docs/contributing.md)
 - [Tutorial](https://youtu.be/GozNb4i47Ds?si=MIqJC56Ernvxpj_i)
 
-### Support:
+### Support
 
 - Star us on [GitHub](https://github.com/osl-incubator/scicookie).
 - Stay tuned for upcoming support options.
