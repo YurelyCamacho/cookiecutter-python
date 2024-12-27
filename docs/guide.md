@@ -768,13 +768,13 @@ supported hooks using this link https://pre-commit.com/hooks.html.
 
 ## Integration with DevOps tools
 
-Integrating your Python project with DevOps tools can bring a number of benefits
-to the development and deployment process. DevOps tools are designed to automate
-and streamline the development pipeline, from code development to deployment and
-maintenance, and can help you improve the speed, quality and reliability of the
-development process. In SciCookie you can choose between _Docker_, _Podman_ and
-_Kubernetes_. These are all containerization technologies used to deploy and
-manage applications.
+Integrating your Python project with DevOps tools can bring a number of
+benefits to the development and deployment process. DevOps tools are designed
+to automate and streamline the development pipeline, from code development to
+deployment and maintenance, and can help you improve the speed, quality and
+reliability of the development process. In SciCookie you can choose between
+_Docker_ and _Podman_. These are all containerization technologies used to
+deploy and manage applications.
 
 - [**Docker**](https://www.docker.com/): This is a containerization platform
   that allows developers to package their applications and dependencies into a
@@ -799,18 +799,7 @@ manage applications.
   [Podman website](https://podman.io/) and in the
   [Podman documentation](https://docs.podman.io/).
 
-- [**Kubernetes**](https://kubernetes.io/): It is a container orchestration
-  platform that automates the deployment, scaling, and management of
-  containerized applications. It provides a platform for managing and scaling
-  containerized applications across multiple hosts and environments, and offers
-  advanced features such as automatic scaling, rolling updates, and
-  self-healing. In Python projects, Kubernetes can be used to manage and
-  orchestrate containerized Python applications, providing a scalable and
-  reliable platform for running and deploying applications. You can read more
-  about this on the [Kubernetes website](https://kubernetes.io/) and in the
-  [Kubernetes documentation](https://kubernetes.io/docs/).
-
-Overall, Docker, Podman, and Kubernetes are powerful tools for managing and
+Overall, Docker and Podman are powerful tools for managing and
 deploying containerized applications, and can provide a streamlined and
 efficient platform for running Python projects.
 
