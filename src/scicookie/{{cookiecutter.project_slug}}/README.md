@@ -206,11 +206,10 @@ included with [Flake8](https://flake8.pycqa.org/en/latest/).
   easily share our application with others and deploy it in different
   environments. This streamlines our development, testing, deployment and
   collaboration workflows, making the whole process more efficient.
-{%- elif cookiecutter.use_containers == 'Podman' %}
-- **Integration with DevOps tools**: we use  _Podman_ in our Python project
-  because it helps us achieve a more secure, efficient, and flexible
-  containerization strategy, and give us more control over application's
-  dependencies and configurations.
+
+  **Note**
+  [**Podman**](https://podman.io/) is supported via
+  [`docker-compose`](https://docs.docker.com/compose/).
 {%+ endif %}
 {%- if cookiecutter.use_makim == "yes" %}
 - **Automation tools**: this project uses
