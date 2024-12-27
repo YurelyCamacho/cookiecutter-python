@@ -509,9 +509,9 @@ community.
   Miniconda.
 
   If you select this option, a conda folder will appear in the project
-  directory, containing a dev.yaml file that you can use to manage the
+  directory, containing a `dev.yaml` file that you can use to manage the
   development project's dependencies. If you do not select this option, a
-  requirements.txt will be added for you to manage with virtualenv.
+  `requirements.txt` will be added for you to manage with virtualenv.
 
 ### Code formatter
 
@@ -520,7 +520,7 @@ of coding standards, such as PEP 8 guidelines. It helps us ensure consistency in
 our code, saves time by automating the formatting process, reduces errors by
 enforcing coding standards, and facilitates collaboration by making it easier
 for multiple developers to work on the same code base. In the options of
-SciCookie, you will find: _Black_.
+SciCookie, you will find: _Black_, _Ruff_ and _Prettier_.
 
 - [**Black**](https://black.readthedocs.io): It is a popular code formatter tool
   for Python that automatically formats code to conform to PEP 8 guidelines. It
@@ -540,8 +540,19 @@ want to know more about it.
   enhancing code readability, saving time on manual formatting, and allowing for
   fine-tuned configurations to meet specific project needs.
 
-Using code formatters such as _Black_ and _Ruff_ in your project helps ensure
-consistent and readable code, making it easier to maintain and collaborate on.
+- [**Prettier**](https://prettier.io/docs/en/): is an opinionated code
+  formatter that removes all original styling and ensures that all outputted
+  code conforms to a consistent style(i.e. code formatting that won’t affect
+  the AST) across your entire codebase because it disregards the original
+  styling* by parsing it away and re-printing the parsed AST with its own rules
+  that take the maximum line length into account, wrapping code when necessary.
+  Prettier offers support for JavaScript, JSX, Angular, Vue, Flow, TypeScript,
+  CSS, Less, and SCSS, HTML, Ember/Handlebars, JSON, GraphQL, Markdown,
+  including GFM and MDX v1 and YAML.
+
+Using code formatters such as _Black_, _Ruff_ and _Prettier_ in your project
+helps ensure consistent and readable code, making it easier to maintain and
+collaborate on.
 
 ### Code security vulnerabilities
 
@@ -582,7 +593,7 @@ SciCookie you have _coverage_ available.
   may be vulnerable to bugs. This will show you the percentage of code covered
   by your tests, as well as detailed information about which lines were executed
   and which were not. If you want to know more about how it works, you can read
-  the [Coverge documentation](https://coverage.readthedocs.io/).
+  the [Coverage documentation](https://coverage.readthedocs.io/).
 
 By using code coverage testing in Python, you can ensure that your code has been
 thoroughly tested and is free of bugs.
@@ -597,7 +608,7 @@ of data structures, and the implementation of algorithms.
 There are a number of tools that can help you to improve the code style and
 logic of your Python code; analyzing and verification of the code. In SciCookie
 you can choose and include in your project _flake8_, _Ruff_, _isort_, _mccabe_,
-_pydocstyle_ and/or _vulture_.
+_mypy_, _pydocstyle_ and/or _vulture_.
 
 - [**Flake8**](https://flake8.pycqa.org/): A tool that helps you find potential
   performance issues in your code. Flake8 can detect errors in syntax,
@@ -638,6 +649,15 @@ _pydocstyle_ and/or _vulture_.
   loops and if statements. Simply put, it provides an upper bound on the number
   of test cases needed to obtain branch coverage of the code. It is recommended
   to run it during the git hook pre-commit.
+
+- [**mypy**](https://mypy.readthedocs.io/en/stable/): is a static type checker
+  for Python, so it finds errors in your programs without even executing them.
+  Type checkers help ensure that you are using variables and functions in your
+  code correctly. With mypy, add type hints (PEP 484) to your Python programs,
+  and warn you when you use those types incorrectly. It has an easy-to-use type
+  system and easy to use, supporting features such as type inference, callable
+  types, tuple types, union types, structural subtyping and more. Using mypy
+  your programs will be easier to understand, debug and maintain.
 
 - [**Vulture**](https://github.com/jendrikseipp/vulture): finds unused code in
   Python programs. This is useful for cleaning up and finding bugs in large code
