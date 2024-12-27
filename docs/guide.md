@@ -772,9 +772,8 @@ Integrating your Python project with DevOps tools can bring a number of
 benefits to the development and deployment process. DevOps tools are designed
 to automate and streamline the development pipeline, from code development to
 deployment and maintenance, and can help you improve the speed, quality and
-reliability of the development process. In SciCookie you can choose between
-_Docker_ and _Podman_. These are all containerization technologies used to
-deploy and manage applications.
+reliability of the development process. In SciCookie you have the option of
+using _Docker_.
 
 - [**Docker**](https://www.docker.com/): This is a containerization platform
   that allows developers to package their applications and dependencies into a
@@ -787,21 +786,12 @@ deploy and manage applications.
   [Docker website](https://www.docker.com/) and in the
   [Docker documentation](https://docs.docker.com/).
 
-- [**Podman**](https://podman.io/): It is a container engine without the need
-  for a daemon running as root. With Podman, you can easily create and run
-  containers, as well as manage their lifecycle and resources. This integration
-  improves development and deployment processes, making them more efficient and
-  streamlined. Podman in Python project helps to achieve a more secure,
-  efficient and flexible containerization strategy and gives more control over
-  application dependencies and configurations. As Podman allows containers to be
-  managed without the need for a daemon, it provides a more secure and
-  lightweight solution. You can read more about this on the
-  [Podman website](https://podman.io/) and in the
-  [Podman documentation](https://docs.podman.io/).
+SciCookie can work with [**Podman**](https://podman.io/), but is supported via
+[`docker-compose`](https://docs.docker.com/compose/).
 
-Overall, Docker and Podman are powerful tools for managing and
-deploying containerized applications, and can provide a streamlined and
-efficient platform for running Python projects.
+Overall, Docker is a powerful tools for managing and deploying containerized
+applications, and can provide a streamlined and efficient platform for running
+Python projects.
 
 In case you do not want to include DevOps in your project, you can do so by
 selecting the option `None` (this is the default option).
